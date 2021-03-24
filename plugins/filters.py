@@ -201,7 +201,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             ])
 
             await query.message.edit_text(
-                script.ABOUT_MSG,
+                script.HELP_MSG,
                 reply_markup=keyboard,
                 disable_web_page_preview=True
             )
